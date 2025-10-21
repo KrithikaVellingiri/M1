@@ -10,9 +10,18 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
-
+```
+#include <stdio.h>
+int main() {
+    char a, b, c;
+    scanf(" %c %c %c", &a, &b, &c);
+    printf("Reversed order: %c %c %c\n", c, b, a);
+    return 0;
+}
+```
 ## OUTPUT:
 
+<img width="1920" height="1080" alt="Screenshot (837)" src="https://github.com/user-attachments/assets/377d084a-46d4-4b4b-b048-0634a3b326a2" />
 
 
 
